@@ -3,5 +3,9 @@
 
 def convert(s):
     '''Converts to an integer.'''
-    x = int(s)
+    x = -1
+    try:
+        x = int(s)
+    except (ValueError, TypeError):
+        print("Conversion failed!")
     return x
