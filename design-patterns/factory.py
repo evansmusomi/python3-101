@@ -1,4 +1,4 @@
-""" Factory patten example """
+""" Factory pattern example """
 
 class Dog:
     """A simple dog class"""
